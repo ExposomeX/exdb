@@ -1,0 +1,18 @@
+Package: exdb
+Title: To explore the data, as well as facilitating to find the biological relationship between exposure and diseases from the perspective of bioinformatics.
+Version: 1.0.0
+Authors@R: 
+    person(given='bin',
+    family = 'Wang',
+    role= c('aut','cph','cre'),
+    email = "binwang@pku.edu.cn")
+Description: A convenient tool to explore the data, 
+    as well as facilitating to find the biological relationship between exposure and 
+    diseases from the perspective of bioinformatics. This module adopts the most 
+    frequently-used and authoritative databases, e.g., T3DB, CTD, ToxCast, StringDB,
+    STITCH, KEGG, and GO.
+License: GPL (>= 3)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.0
+Imports: httr,vroom,readxl
